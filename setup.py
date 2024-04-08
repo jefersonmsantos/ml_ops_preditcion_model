@@ -5,7 +5,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 #Metadata of package
-NAME='prediction_model'
+NAME='prediciton_model'
 DESCRIPTION = 'Loan Prediciton Model'
 URL = 'https://github.com/manifoldailearning'
 REQUIRES_PYTHON ='>=3.7.0'
