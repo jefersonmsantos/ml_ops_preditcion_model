@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import joblib
-from prediciton_model.config import config
+from prediction_model.config import config
 
 def load_dataset(file_name):
     filepath = os.path.join(config.DATAPATH, file_name)

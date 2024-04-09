@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
-from prediciton_model.config import config
-from prediciton_model.processing.data_handling import load_dataset, save_pipeline
-from prediciton_model.processing import preprocessing as pp
-import prediciton_model.pipeline as pipe
+from prediction_model.config import config
+from prediction_model.processing.data_handling import load_dataset, save_pipeline
+from prediction_model.processing import preprocessing as pp
+import prediction_model.pipeline as pipe
 
 def perform_training():
     train_data = load_dataset(file_name=config.TRAIN_FILE)

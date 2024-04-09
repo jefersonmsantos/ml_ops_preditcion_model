@@ -1,7 +1,7 @@
 import pytest
-from prediciton_model.config import config
-from prediciton_model.processing.data_handling import load_dataset
-from prediciton_model.predict import generate_predictions
+from prediction_model.config import config
+from prediction_model.processing.data_handling import load_dataset
+from prediction_model.predict import generate_predictions
 
 # output from predict script is not null
 # output from predict script is sting

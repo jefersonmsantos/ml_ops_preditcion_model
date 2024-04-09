@@ -1,8 +1,8 @@
 import pathlib
 import os
-import prediciton_model
+import prediction_model
 
-PACKAGE_ROOT = pathlib.Path(prediciton_model.__file__).resolve().parent
+PACKAGE_ROOT = pathlib.Path(prediction_model.__file__).resolve().parent
 
 DATAPATH = os.path.join(PACKAGE_ROOT, "datasets")
 

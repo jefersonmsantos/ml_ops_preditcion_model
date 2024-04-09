@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 import joblib
-from prediciton_model.config import config
-from prediciton_model.processing.data_handling import load_pipeline, load_dataset
+from prediction_model.config import config
+from prediction_model.processing.data_handling import load_pipeline, load_dataset
 
 classification_pipeline = load_pipeline(config.MODEL_NAME)
 
